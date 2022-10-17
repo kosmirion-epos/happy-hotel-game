@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Entry.unity
+    guid: 561675ff474574d4f87cbb252f1c2deb
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: a2fec529d7b2c2746aa9452b1e2e80c5
+  - enabled: 1
+    path: Assets/Scenes/Round.unity
+    guid: a09f9f6341f537a42a2a5f8bfe0d0aea
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Lobby/Lobby.unity
+    guid: 93c83fd111a42da4f9152bd4eecebd35
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Casino/Casino.unity
+    guid: a68a1f99d88c7874fa25e0dd84f0eeb7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Cinema/Cinema.unity
+    guid: bf1216d2534814a4eb55341d240e7fd2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Guestroom/Guestroom.unity
+    guid: 5b4fc5c9dc02dde4693b18d3decedf05
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Guestroom 2/Guestroom 2.unity
+    guid: b2952d11cd6b3124f98d1b142d249aa7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Restaurant/Restaurant.unity
+    guid: 27a0ac8b1205d0c498108c96c9b51067
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Level/Main Hall/Main Hall.unity
+    guid: 9b61e6cb69dbd384eb1e435ae910d5dd
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: b6c1a27a3e427cb43af51e8d4a788f8f,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f7bfcff96fbaaae4b8249c75f742b3e6,
+      type: 2}

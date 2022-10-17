@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117ec231952ee104783c444d8f82b053, type: 3}
+  m_Name: Normal Difficulty 2
+  m_EditorClassIdentifier: 
+  Difficulty: 2
+  DifficultyMaterial: {fileID: 2100000, guid: 1894021c854fc574182a6bf376312d80, type: 2}
+  HasStaticEnemies: 1
+  HasMovingEnemies: 0
+  HasShootingEnemies: 1
+  EnemyBulletSpeed: 1.1
+  EnemyMoveSpeed: 1.1
+  EnemyFireRate: 1
+  EnemyShotAnticipationTime: 2.5
+  EnemyDamage: 1
+  EnemyInvulChance: 0
+  EnemyMoveEase: 1
+  scoreGoal: 800
+  maxActiveEnemies: 9
+  roundsToLevelUp: 2
+  timeInRound: 45
+  AvailableRooms:
+  - sceneID: 4
+  - sceneID: 6
+  - sceneID: 8
+  OnlyStatic:
+    spawnObjects:
+    - spawnObject: {fileID: 11400000, guid: 18265ff9069f1d34c9bfab9b6299cc51, type: 2}
+      chance: 0.9
+      locked: 1
+    - spawnObject: {fileID: 11400000, guid: 65b16261e5b75514fa45e5e2d374a529, type: 2}
+      chance: 0.100000024
+      locked: 1
+  OnlyMobile:
+    spawnObjects:
+    - spawnObject: {fileID: 11400000, guid: 49f43684767f8e543bc48dd6b8f1ddf6, type: 2}
+      chance: 1
+      locked: 1
+  OnlyPassive:
+    spawnObjects:
+    - spawnObject: {fileID: 11400000, guid: 18265ff9069f1d34c9bfab9b6299cc51, type: 2}
+      chance: 1
+      locked: 1
+    - spawnObject: {fileID: 11400000, guid: 49f43684767f8e543bc48dd6b8f1ddf6, type: 2}
+      chance: 0
+      locked: 1
+  OnlyActive:
+    spawnObjects:
+    - spawnObject: {fileID: 11400000, guid: 65b16261e5b75514fa45e5e2d374a529, type: 2}
+      chance: 1
+      locked: 1
+  AllWeights:
+    spawnObjects:
+    - spawnObject: {fileID: 11400000, guid: 18265ff9069f1d34c9bfab9b6299cc51, type: 2}
+      chance: 0.9
+      locked: 1
+    - spawnObject: {fileID: 11400000, guid: 49f43684767f8e543bc48dd6b8f1ddf6, type: 2}
+      chance: 0
+      locked: 1
+    - spawnObject: {fileID: 11400000, guid: 65b16261e5b75514fa45e5e2d374a529, type: 2}
+      chance: 0.1
+      locked: 1

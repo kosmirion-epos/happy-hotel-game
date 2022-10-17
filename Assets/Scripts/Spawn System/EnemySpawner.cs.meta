@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c4b717fb02f3f7e48bfedf9d3ed60d8e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - currentNumberOfFreeSpawners: {fileID: 11400000, guid: 7b88c2ca58343894eaa312d61e9b4367,
+      type: 2}
+  - numberOfUpdatedSpawnersThisFrame: {fileID: 11400000, guid: 02e87c6bc00a5cc429e7c72a98cdf509,
+      type: 2}
+  - hasSpawnOccurredThisFrame: {fileID: 11400000, guid: 5f4b016515041774bad3fca914dd5675,
+      type: 2}
+  - maxNumberOfEnemies: {instanceID: 0}
+  - currentNumberOfEnemies: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

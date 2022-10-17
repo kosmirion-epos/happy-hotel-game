@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fd4de8015d81f4e91482c3234ea2ce, type: 3}
+  m_Name: Normal Difficulties
+  m_EditorClassIdentifier: 
+  isRuntimeConstant: 1
+  initialValue:
+  - {fileID: 11400000, guid: 1e6518f9233e8a145a4ff8f1b62c44e7, type: 2}
+  - {fileID: 11400000, guid: 9eb6571fbd1e3144f87bc32f07c2c4ea, type: 2}
+  - {fileID: 11400000, guid: ebab483f1bef2c04c836c3830e4d8b6c, type: 2}
+  - {fileID: 11400000, guid: 81fd8b4311ce38f4dba2280d0372dde3, type: 2}
+  - {fileID: 11400000, guid: 4464f5f0790833a4f9462556b691a15a, type: 2}
+  - {fileID: 11400000, guid: 6ecd610143278b549b26e8ab42212759, type: 2}
+  value:
+  - {fileID: 11400000, guid: 1e6518f9233e8a145a4ff8f1b62c44e7, type: 2}
+  - {fileID: 11400000, guid: 9eb6571fbd1e3144f87bc32f07c2c4ea, type: 2}
+  - {fileID: 11400000, guid: ebab483f1bef2c04c836c3830e4d8b6c, type: 2}
+  - {fileID: 11400000, guid: 81fd8b4311ce38f4dba2280d0372dde3, type: 2}
+  - {fileID: 11400000, guid: 4464f5f0790833a4f9462556b691a15a, type: 2}
+  - {fileID: 11400000, guid: 6ecd610143278b549b26e8ab42212759, type: 2}
+  DisplayName: Normal

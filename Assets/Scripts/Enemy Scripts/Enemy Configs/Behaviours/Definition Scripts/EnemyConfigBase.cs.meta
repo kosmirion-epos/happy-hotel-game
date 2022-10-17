@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ac718757577c5d94992630cf03588ac5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ScoreReference: {fileID: 11400000, guid: b02fad0999864f743845793e94ff14ed, type: 2}
+  - DoublePointsFlag: {fileID: 11400000, guid: 661e25a565ea86547a73f1d221696e86, type: 2}
+  - hitmarkerDecal: {instanceID: 0}
+  - hitmarkerSound: {instanceID: 0}
+  - impactSound: {instanceID: 0}
+  - hitVFX: {fileID: 11400000, guid: b149a5077102f484480f12e6a6034141, type: 2}
+  - hitHeadVFX: {fileID: 11400000, guid: bd51fe483fb470949a511d877ed2608a, type: 2}
+  - hit2xVFX: {fileID: 11400000, guid: dce392f6fa27ac2499102af5cd9dd742, type: 2}
+  - hitHead2xVFX: {fileID: 11400000, guid: 3c1f8def001cd7545bc974f11038d1d9, type: 2}
+  - attack: {instanceID: 0}
+  - movement: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

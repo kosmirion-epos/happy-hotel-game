@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 50786371bbf31454d87599b6cef4a30e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - projectilePrefab: {fileID: 7228423965595542100, guid: f0f3774d6fb77174e96296a1012b981d,
+      type: 3}
+  - shootVFX: {fileID: 11400000, guid: 4da2024ac85d31e4ba8a180b811a6cce, type: 2}
+  - shotPos: {instanceID: 0}
+  - bulletSpeedMultiplier: {fileID: 11400000, guid: f6221f978c01ed64b88344434010ee38,
+      type: 2}
+  - firerateMultiplier: {fileID: 11400000, guid: d1ae3e23b30ea9b4ea52010919c3fb9a,
+      type: 2}
+  - damageMultiplier: {fileID: 11400000, guid: b87af914b104eca4595bc635f35f8a12, type: 2}
+  - baseVariation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

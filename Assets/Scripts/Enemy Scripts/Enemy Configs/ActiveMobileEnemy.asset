@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac718757577c5d94992630cf03588ac5, type: 3}
+  m_Name: ActiveMobileEnemy
+  m_EditorClassIdentifier: 
+  PointsWorth: 70
+  HeadshotMultiplier: 3
+  ScoreReference: {fileID: 11400000, guid: b02fad0999864f743845793e94ff14ed, type: 2}
+  MaxScoreReference: {fileID: 11400000, guid: b12d82e1f516add4ca1f21f606298124, type: 2}
+  DoublePointsFlag: {fileID: 11400000, guid: 661e25a565ea86547a73f1d221696e86, type: 2}
+  StayDuration: 20
+  CoolDownAfterDeath: {x: 5, y: 8}
+  PrefabOptions:
+  - {fileID: 3537668000868283498, guid: 5768841959fe975488eff5bc7c8e0074, type: 3}
+  hitmarkerDecal: {fileID: 3042924420874357798, guid: 5c921795f3a4a7943bed2fdc6166a6d2,
+    type: 3}
+  hitmarkerSound: {fileID: 8300000, guid: 08e3ec660bf025f46bef085d472977ec, type: 3}
+  impactSound: {fileID: 8300000, guid: ff7d04382399df44ead6cd3bf97ccacb, type: 3}
+  hitmarkerVolume: 3
+  hitVFX: {fileID: 11400000, guid: b149a5077102f484480f12e6a6034141, type: 2}
+  hitHeadVFX: {fileID: 11400000, guid: bd51fe483fb470949a511d877ed2608a, type: 2}
+  hit2xVFX: {fileID: 11400000, guid: dce392f6fa27ac2499102af5cd9dd742, type: 2}
+  hitHead2xVFX: {fileID: 11400000, guid: 3c1f8def001cd7545bc974f11038d1d9, type: 2}
+  attack: {fileID: 11400000, guid: 01e47ea0c9f3c8341a8702df513e02c4, type: 2}
+  movement: {fileID: 11400000, guid: a7ac8682ac20d464094182acf3cc686c, type: 2}

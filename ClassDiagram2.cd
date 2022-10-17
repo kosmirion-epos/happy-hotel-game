@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AmmoBallCan" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAgACAAAAAQAAEAACAAAAQACAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\AmmoBallCan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmmoWeapon" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAgAAAAIAQEAAAAAAAAAAAAAIAAAAAAAAAAQAASAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\AmmoWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrankWeapon" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAIAAAAAAAAACAAAAAAAIAAAAAABASAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\CrankWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAttackBehaviour" Collapsed="true">
+    <Position X="6.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEAAAAIAAAAAAAAAAAAAAIAAAACAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\EnemyAttackBehaviours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMovementBehaviour" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\EnemyMovementBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtendedBehaviour" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ExtendedBehaviour\ExtendedBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FillWeapon" Collapsed="true">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\FillWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAI4iAAEIAAAAAAAAAAgABIAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameFlow\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalBool" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalBool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalClassValue&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\GlobalClassValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalEventListener" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAgBAAAIBgAAAAJAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\GlobalEvent\GlobalEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalEventMultiListener" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAgAAAAABgAAAABAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\GlobalEvent\GlobalEventMultiListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalEventSyncListener">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="GlobalEventSyncListener.EventCondition" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Utility\GlobalEvent\GlobalEventSyncListener.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAEAACgBAAAACgAAAAQAAAIAAAAAAAQCEA=</HashCode>
+      <FileName>Assets\Scripts\Utility\GlobalEvent\GlobalEventSyncListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalFloat" Collapsed="true">
+    <Position X="12.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalFloat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalGameObject" Collapsed="true">
+    <Position X="3.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalGameObjectList" Collapsed="true">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalGameObjectList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalGameState" Collapsed="true">
+    <Position X="7.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalInt" Collapsed="true">
+    <Position X="10" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalStructValue&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\GlobalStructValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalTransform" Collapsed="true">
+    <Position X="1" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\Instantiations\GlobalTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalValue&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAIAAAACAFBAAAAAABAAiAAAAAhEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\ScopedValue\GlobalValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lifespan" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\Lifespan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoAttackBehaviour" Collapsed="true">
+    <Position X="7.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\NoAttackBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OneWayJoint" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAIAAAACAgACAAAJAAAAAAAACgA=</HashCode>
+      <FileName>Assets\Scripts\Utility\OneWayJoint\OneWayJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OneWayJointGrabbable" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgBAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Utility\OneWayJoint\OneWayJointGrabbable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RangedAttackBehaviour" Collapsed="true">
+    <Position X="5.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\RangedAttackBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrewWeapon" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIgAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\ScrewWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SidewardsMovBehaviour" Collapsed="true">
+    <Position X="2.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\SidewardsMovBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandStillMovBehaviour" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy Scripts\Enemy Configs\Definition Scripts\StandStillMovBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestWeapon" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAIACAARAAAAAAAAAAAAQAAAEQAACACBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\TestWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

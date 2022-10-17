@@ -1,0 +1,1276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FMODSoundManager
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 95140afb7d1847f489fbc00c0d3003f4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: globalReference
+    value: 
+    objectReference: {fileID: 11400000, guid: 791b3847f575fcb4d92caad416e35dc2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.size
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[0].Guid.Data1
+    value: 1928507861
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[0].Guid.Data2
+    value: 1334161680
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[0].Guid.Data3
+    value: 10705056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[0].Guid.Data4
+    value: -1037897067
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[0].Path
+    value: event:/Consumables/Double Points/doublepoints_end
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[1].Guid.Data1
+    value: 1696006234
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[1].Guid.Data2
+    value: 1306522561
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[1].Guid.Data3
+    value: -2043046736
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[1].Guid.Data4
+    value: 1483050729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[1].Path
+    value: event:/Consumables/Double Points/doublepoints_gain
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[2].Guid.Data1
+    value: -688901585
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[2].Guid.Data2
+    value: 1217766401
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[2].Guid.Data3
+    value: -81468225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[2].Guid.Data4
+    value: -768588066
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[2].Path
+    value: event:/Consumables/Double Points/doublepoints_start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[3].Guid.Data1
+    value: 1390032889
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[3].Guid.Data2
+    value: 1171262783
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[3].Guid.Data3
+    value: 411921586
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[3].Guid.Data4
+    value: -2028907292
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[3].Path
+    value: event:/Consumables/Infinite Ammo/infiniteammo_end
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[4].Guid.Data1
+    value: 1018845827
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[4].Guid.Data2
+    value: 1155109790
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[4].Guid.Data3
+    value: 234448794
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[4].Guid.Data4
+    value: -874730084
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[4].Path
+    value: event:/Consumables/Infinite Ammo/infiniteammo_start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[5].Guid.Data1
+    value: -254418640
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[5].Guid.Data2
+    value: 1100662729
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[5].Guid.Data3
+    value: 1332472717
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[5].Guid.Data4
+    value: -1616633163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[5].Path
+    value: event:/Consumables/Shield/shield_end
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[6].Guid.Data1
+    value: 1864668323
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[6].Guid.Data2
+    value: 1256309250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[6].Guid.Data3
+    value: 2112227242
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[6].Guid.Data4
+    value: 1866176583
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[6].Path
+    value: event:/Consumables/Shield/shield_hit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[7].Guid.Data1
+    value: -505925679
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[7].Guid.Data2
+    value: 1302532293
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[7].Guid.Data3
+    value: -1156295496
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[7].Guid.Data4
+    value: 649150433
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[7].Path
+    value: event:/Consumables/Shield/shield_start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[8].Guid.Data1
+    value: -254900709
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[8].Guid.Data2
+    value: 1230239372
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[8].Guid.Data3
+    value: -850374497
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[8].Guid.Data4
+    value: -1051464518
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[8].Path
+    value: event:/Consumables/Time Slow/timeslow_end
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[9].Guid.Data1
+    value: 1544028910
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[9].Guid.Data2
+    value: 1311636741
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[9].Guid.Data3
+    value: -1348631424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[9].Guid.Data4
+    value: 804436498
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[9].Path
+    value: event:/Consumables/Time Slow/timeslow_start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[10].Guid.Data1
+    value: -1023251455
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[10].Guid.Data2
+    value: 1335582345
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[10].Guid.Data3
+    value: -296707178
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[10].Guid.Data4
+    value: 550930338
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[10].Path
+    value: event:/Elevator/elevator_doorsclosing
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[11].Guid.Data1
+    value: -544190802
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[11].Guid.Data2
+    value: 1262107726
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[11].Guid.Data3
+    value: 1637699989
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[11].Guid.Data4
+    value: -1225360810
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[11].Path
+    value: event:/Elevator/elevator_doorsopening
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[12].Guid.Data1
+    value: -711152002
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[12].Guid.Data2
+    value: 1227229235
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[12].Guid.Data3
+    value: 77936809
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[12].Guid.Data4
+    value: 1980081072
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[12].Path
+    value: event:/Elevator/elevator_levelreached
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[13].Guid.Data1
+    value: 1226244938
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[13].Guid.Data2
+    value: 1163841864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[13].Guid.Data3
+    value: -118096247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[13].Guid.Data4
+    value: -59555547
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[13].Path
+    value: event:/Elevator/elevator_moving
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[14].Guid.Data1
+    value: -1077276494
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[14].Guid.Data2
+    value: 1257029990
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[14].Guid.Data3
+    value: -607511881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[14].Guid.Data4
+    value: -1835306458
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[14].Path
+    value: event:/Elevator/elevator_shaftrumble
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[15].Guid.Data1
+    value: -1148182639
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[15].Guid.Data2
+    value: 1230483895
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[15].Guid.Data3
+    value: 1563854499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[15].Guid.Data4
+    value: 501034509
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[15].Path
+    value: event:/Elevator/elevator_wallsclosing
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[16].Guid.Data1
+    value: -867098932
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[16].Guid.Data2
+    value: 1103671805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[16].Guid.Data3
+    value: -1176524661
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[16].Guid.Data4
+    value: -1442005364
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[16].Path
+    value: event:/Elevator/elevator_wallsopening
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[17].Guid.Data1
+    value: 1586801834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[17].Guid.Data2
+    value: 1282956999
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[17].Guid.Data3
+    value: -809195120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[17].Guid.Data4
+    value: -895283196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[17].Path
+    value: event:/Elevator/elevator_weaponchamberclosing
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[18].Guid.Data1
+    value: 933954548
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[18].Guid.Data2
+    value: 1309807316
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[18].Guid.Data3
+    value: 1195601340
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[18].Guid.Data4
+    value: 1022747375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[18].Path
+    value: event:/Elevator/elevator_weaponchamberopening
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[19].Guid.Data1
+    value: -696058022
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[19].Guid.Data2
+    value: 1201696709
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[19].Guid.Data3
+    value: -338136159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[19].Guid.Data4
+    value: -94840679
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[19].Path
+    value: event:/Enemies/enemy_death
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[20].Guid.Data1
+    value: -935626091
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[20].Guid.Data2
+    value: 1266131502
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[20].Guid.Data3
+    value: 519881914
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[20].Guid.Data4
+    value: -1434834164
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[20].Path
+    value: event:/Enemies/enemy_popup
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[21].Guid.Data1
+    value: -1383938890
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[21].Guid.Data2
+    value: 1326996872
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[21].Guid.Data3
+    value: 1601943224
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[21].Guid.Data4
+    value: -2004977591
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[21].Path
+    value: event:/Enemies/enemy_shooting
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[22].Guid.Data1
+    value: -592865092
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[22].Guid.Data2
+    value: 1129473231
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[22].Guid.Data3
+    value: 1974172801
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[22].Guid.Data4
+    value: 366802609
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[22].Path
+    value: event:/Enemies/enemy_shootingwindup
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[23].Guid.Data1
+    value: 514599181
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[23].Guid.Data2
+    value: 1129846350
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[23].Guid.Data3
+    value: 2048534706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[23].Guid.Data4
+    value: -246248117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[23].Path
+    value: event:/Extras/hitmarker
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[24].Guid.Data1
+    value: -1117945667
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[24].Guid.Data2
+    value: 1132528332
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[24].Guid.Data3
+    value: 257126328
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[24].Guid.Data4
+    value: 1499743626
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[24].Path
+    value: event:/Extras/hitmarker_headshot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[25].Guid.Data1
+    value: 640970892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[25].Guid.Data2
+    value: 1089249240
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[25].Guid.Data3
+    value: -681204315
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[25].Guid.Data4
+    value: 1798700235
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[25].Path
+    value: event:/Points/Shop/shop_button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[26].Guid.Data1
+    value: 961007128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[26].Guid.Data2
+    value: 1195249072
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[26].Guid.Data3
+    value: 1853088413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[26].Guid.Data4
+    value: 124086166
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[26].Path
+    value: event:/Points/Shop/shop_electricalnoise
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[27].Guid.Data1
+    value: 1619118412
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[27].Guid.Data2
+    value: 1142087320
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[27].Guid.Data3
+    value: -390295155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[27].Guid.Data4
+    value: -316636041
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[27].Path
+    value: event:/Points/Shop/shop_itemdispense
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[28].Guid.Data1
+    value: -204315859
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[28].Guid.Data2
+    value: 1273239177
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[28].Guid.Data3
+    value: 987789459
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[28].Guid.Data4
+    value: -1445296452
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[28].Path
+    value: event:/Points/Shop/shop_leverpull
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[29].Guid.Data1
+    value: -690463210
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[29].Guid.Data2
+    value: 1075078137
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[29].Guid.Data3
+    value: -1411129199
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[29].Guid.Data4
+    value: -470024298
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[29].Path
+    value: event:/Points/Shop/shop_leverreturn
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[30].Guid.Data1
+    value: -983328589
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[30].Guid.Data2
+    value: 1177699374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[30].Guid.Data3
+    value: 462513343
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[30].Guid.Data4
+    value: 905361713
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[30].Path
+    value: event:/Points/Shop/shop_purchaseconfirm
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[31].Guid.Data1
+    value: -1945564709
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[31].Guid.Data2
+    value: 1195801989
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[31].Guid.Data3
+    value: -74435940
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[31].Guid.Data4
+    value: 1362741223
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[31].Path
+    value: event:/Points/Shop/shop_purchasedeny
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[32].Guid.Data1
+    value: -695729046
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[32].Guid.Data2
+    value: 1177841960
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[32].Guid.Data3
+    value: 1861490864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[32].Guid.Data4
+    value: 1071141260
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[32].Path
+    value: event:/Points/points_gain
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[33].Guid.Data1
+    value: -1960081298
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[33].Guid.Data2
+    value: 1146666815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[33].Guid.Data3
+    value: 1093147562
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[33].Guid.Data4
+    value: -2006742815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[33].Path
+    value: event:/Points/points_levelamount_dropped
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[34].Guid.Data1
+    value: 1039601770
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[34].Guid.Data2
+    value: 1269259842
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[34].Guid.Data3
+    value: 98089875
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[34].Guid.Data4
+    value: 1637779762
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[34].Path
+    value: event:/Points/points_levelamount_reached
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[35].Guid.Data1
+    value: -1700707182
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[35].Guid.Data2
+    value: 1320155622
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[35].Guid.Data3
+    value: -2106083429
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[35].Guid.Data4
+    value: 336421120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[35].Path
+    value: event:/Points/points_lose
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[36].Guid.Data1
+    value: -597147206
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[36].Guid.Data2
+    value: 1274233377
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[36].Guid.Data3
+    value: 1586726820
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[36].Guid.Data4
+    value: -1373647645
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[36].Path
+    value: event:/Points/points_tick
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[37].Guid.Data1
+    value: -504070525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[37].Guid.Data2
+    value: 1286921143
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[37].Guid.Data3
+    value: -1051194967
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[37].Guid.Data4
+    value: 651969493
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[37].Path
+    value: event:/Weapons/Fingergun/fingergun_emptymag
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[38].Guid.Data1
+    value: -383577538
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[38].Guid.Data2
+    value: 1167552233
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[38].Guid.Data3
+    value: -638926967
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[38].Guid.Data4
+    value: -1909616530
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[38].Path
+    value: event:/Weapons/Fingergun/fingergun_projcollision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[39].Guid.Data1
+    value: -1537859818
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[39].Guid.Data2
+    value: 1147826838
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[39].Guid.Data3
+    value: 1857473723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[39].Guid.Data4
+    value: 415571151
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[39].Path
+    value: event:/Weapons/Fingergun/fingergun_reload
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[40].Guid.Data1
+    value: -1986058866
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[40].Guid.Data2
+    value: 1174499798
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[40].Guid.Data3
+    value: 72815026
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[40].Guid.Data4
+    value: 383024847
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[40].Path
+    value: event:/Weapons/Fingergun/fingergun_shot1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[41].Guid.Data1
+    value: -282929857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[41].Guid.Data2
+    value: 1332784256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[41].Guid.Data3
+    value: -1180266355
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[41].Guid.Data4
+    value: 258653347
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[41].Path
+    value: event:/Weapons/Fingergun/fingergun_shot2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[42].Guid.Data1
+    value: 1831524919
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[42].Guid.Data2
+    value: 1175078421
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[42].Guid.Data3
+    value: -122456939
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[42].Guid.Data4
+    value: -1972920813
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[42].Path
+    value: event:/Weapons/Swordgun/swordgun_emptymag
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[43].Guid.Data1
+    value: 1078875081
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[43].Guid.Data2
+    value: 1318828520
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[43].Guid.Data3
+    value: -896208246
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[43].Guid.Data4
+    value: 1562636476
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[43].Path
+    value: event:/Weapons/Swordgun/swordgun_projcollision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[44].Guid.Data1
+    value: -654301120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[44].Guid.Data2
+    value: 1281437536
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[44].Guid.Data3
+    value: 65791933
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[44].Guid.Data4
+    value: -1150813212
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[44].Path
+    value: event:/Weapons/Swordgun/swordgun_reload
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[45].Guid.Data1
+    value: 569903176
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[45].Guid.Data2
+    value: 1134343566
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[45].Guid.Data3
+    value: -1960824156
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[45].Guid.Data4
+    value: -290412097
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[45].Path
+    value: event:/Weapons/Swordgun/swordgun_shot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[46].Guid.Data1
+    value: -85269288
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[46].Guid.Data2
+    value: 1329025664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[46].Guid.Data3
+    value: 2134674576
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[46].Guid.Data4
+    value: -1465748193
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[46].Path
+    value: event:/Weapons/Ultramangun/ultramangun_emptymag
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[47].Guid.Data1
+    value: -1424530172
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[47].Guid.Data2
+    value: 1220666676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[47].Guid.Data3
+    value: -2097338721
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[47].Guid.Data4
+    value: -747368187
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[47].Path
+    value: event:/Weapons/Ultramangun/ultramangun_projcollision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[48].Guid.Data1
+    value: -2028830611
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[48].Guid.Data2
+    value: 1137219872
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[48].Guid.Data3
+    value: 11277499
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[48].Guid.Data4
+    value: 1196062522
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[48].Path
+    value: event:/Weapons/Ultramangun/ultramangun_reload
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[49].Guid.Data1
+    value: -1202388676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[49].Guid.Data2
+    value: 1099665344
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[49].Guid.Data3
+    value: -253374274
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[49].Guid.Data4
+    value: -1591987736
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[49].Path
+    value: event:/Weapons/Ultramangun/ultramangun_shot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[50].Guid.Data1
+    value: 467560583
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[50].Guid.Data2
+    value: 1089470565
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[50].Guid.Data3
+    value: 1050840760
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[50].Guid.Data4
+    value: 1039736558
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[50].Path
+    value: event:/Weapons/Ultramangun/ultramangun_shotcharge
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[51].Guid.Data1
+    value: 545327448
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[51].Guid.Data2
+    value: 1165771523
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[51].Guid.Data3
+    value: -1024685409
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[51].Guid.Data4
+    value: -1580020522
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[51].Path
+    value: event:/Weapons/Occultgun/occultgun_emptymag
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[52].Guid.Data1
+    value: -195201005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[52].Guid.Data2
+    value: 1260032835
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[52].Guid.Data3
+    value: -1869746508
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[52].Guid.Data4
+    value: -690132086
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[52].Path
+    value: event:/Weapons/Occultgun/occultgun_projcollision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[53].Guid.Data1
+    value: -1281078598
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[53].Guid.Data2
+    value: 1275613319
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[53].Guid.Data3
+    value: -1707276634
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[53].Guid.Data4
+    value: 219344940
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[53].Path
+    value: event:/Weapons/Occultgun/occultgun_reload
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[54].Guid.Data1
+    value: 1579816324
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[54].Guid.Data2
+    value: 1246283231
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[54].Guid.Data3
+    value: -748877412
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[54].Guid.Data4
+    value: -547274481
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[54].Path
+    value: event:/Weapons/Occultgun/occultgun_shot
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[55].Guid.Data1
+    value: 1721393832
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[55].Guid.Data2
+    value: 1088073984
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[55].Guid.Data3
+    value: -739006023
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[55].Guid.Data4
+    value: 793028002
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[55].Path
+    value: event:/Consumables/Grenade/consumable_grenade_explosion
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[56].Guid.Data1
+    value: -2096048697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[56].Guid.Data2
+    value: 1092801199
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[56].Guid.Data3
+    value: -598916214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[56].Guid.Data4
+    value: -2119996956
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[56].Path
+    value: event:/Consumables/Grenade/consumable_grenade_start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[57].Guid.Data1
+    value: -1034630483
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[57].Guid.Data2
+    value: 1331652230
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[57].Guid.Data3
+    value: 1269142690
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[57].Guid.Data4
+    value: -1226890699
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[57].Path
+    value: event:/Extras/gameover
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[58].Guid.Data1
+    value: 1981874826
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[58].Guid.Data2
+    value: 1312929282
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[58].Guid.Data3
+    value: -592074856
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[58].Guid.Data4
+    value: -500063226
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[58].Path
+    value: event:/Extras/player_hit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[59].Guid.Data1
+    value: -1267956971
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[59].Guid.Data2
+    value: 1302676107
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[59].Guid.Data3
+    value: -1713047157
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[59].Guid.Data4
+    value: 680548428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: refs.Array.data[59].Path
+    value: event:/Music/soundtrack
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevatorMoving.Guid.Data1
+    value: 1226244938
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevatorMoving.Guid.Data2
+    value: 1163841864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevatorMoving.Guid.Data3
+    value: -118096247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevatorMoving.Guid.Data4
+    value: -59555547
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevatorMoving.Path
+    value: event:/Elevator/elevator_moving
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shopStaticNoise.Guid.Data1
+    value: 961007128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shopStaticNoise.Guid.Data2
+    value: 1195249072
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shopStaticNoise.Guid.Data3
+    value: 1853088413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shopStaticNoise.Guid.Data4
+    value: 124086166
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shopStaticNoise.Path
+    value: event:/Points/Shop/shop_electricalnoise
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

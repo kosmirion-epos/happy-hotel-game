@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5417871a88d37954491fe31d1163bee0, type: 3}
+  m_Name: GrenadeExplosion
+  m_EditorClassIdentifier: 
+  asset: {fileID: 8926484042661614526, guid: 798a4759bbda87c4cb3d414f15812599, type: 3}
+  useLifespan: 1
+  lifespan:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 2
+    global: {fileID: 0}
+  useDestroyDelay: 0
+  destroyDelay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}

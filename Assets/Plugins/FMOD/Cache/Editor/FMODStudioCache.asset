@@ -1,0 +1,3241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9115512463559540280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Infinite Ammo/infiniteammo_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Infinite Ammo/infiniteammo_end
+  Guid:
+    Data1: 1390032889
+    Data2: 1171262783
+    Data3: 411921586
+    Data4: -2028907292
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8992631576831258599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_projcollision
+  Guid:
+    Data1: -383577538
+    Data2: 1167552233
+    Data3: -638926967
+    Data4: -1909616530
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8916135931923754130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/uimenu_close
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/uimenu_close
+  Guid:
+    Data1: 1690729357
+    Data2: 1117667489
+    Data3: -831477839
+    Data4: 377291014
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8854084220124634019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_hit
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_hit
+  Guid:
+    Data1: 1864668323
+    Data2: 1256309250
+    Data3: 2112227242
+    Data4: 1866176583
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8709355976254175505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_weaponchamberclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_weaponchamberclosing
+  Guid:
+    Data1: 1586801834
+    Data2: 1282956999
+    Data3: -809195120
+    Data4: -895283196
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8599008035203913755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Grenade/consumable_grenade_explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Grenade/consumable_grenade_explosion
+  Guid:
+    Data1: 1721393832
+    Data2: 1088073984
+    Data3: -739006023
+    Data4: 793028002
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8554668326403040444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_start
+  Guid:
+    Data1: -505925679
+    Data2: 1302532293
+    Data3: -1156295496
+    Data4: 649150433
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8405889684659555843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_projcollision
+  Guid:
+    Data1: -1424530172
+    Data2: 1220666676
+    Data3: -2097338721
+    Data4: -747368187
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8171399819482229885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_gain
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_gain
+  Guid:
+    Data1: -695729046
+    Data2: 1177841960
+    Data3: 1861490864
+    Data4: 1071141260
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7822941289075568847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_shootingwindup
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_shootingwindup
+  Guid:
+    Data1: -592865092
+    Data2: 1129473231
+    Data3: 1974172801
+    Data4: 366802609
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7795084252815495653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Time Slow/timeslow_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Time Slow/timeslow_end
+  Guid:
+    Data1: -254900709
+    Data2: 1230239372
+    Data3: -850374497
+    Data4: -1051464518
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7646122103682919888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_death
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_death
+  Guid:
+    Data1: -696058022
+    Data2: 1201696709
+    Data3: -338136159
+    Data4: -94840679
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7637012172120386155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_weaponchamberopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_weaponchamberopening
+  Guid:
+    Data1: 933954548
+    Data2: 1309807316
+    Data3: 1195601340
+    Data4: 1022747375
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7518892304789426855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_shot2
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_shot2
+  Guid:
+    Data1: -282929857
+    Data2: 1332784256
+    Data3: -1180266355
+    Data4: 258653347
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7303835936489032307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Grenade/consumable_grenade_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Grenade/consumable_grenade_start
+  Guid:
+    Data1: -2096048697
+    Data2: 1092801199
+    Data3: -598916214
+    Data4: -2119996956
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7212873553336073298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_reload
+  Guid:
+    Data1: -654301120
+    Data2: 1281437536
+    Data3: 65791933
+    Data4: -1150813212
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7208603616820569945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_shaftrumble
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_shaftrumble
+  Guid:
+    Data1: -1077276494
+    Data2: 1257029990
+    Data3: -607511881
+    Data4: -1835306458
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6926680324778560198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_gain
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_gain
+  Guid:
+    Data1: 1696006234
+    Data2: 1306522561
+    Data3: -2043046736
+    Data4: 1483050729
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6810911828688965168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_purchasedeny
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_purchasedeny
+  Guid:
+    Data1: -1945564709
+    Data2: 1195801989
+    Data3: -74435940
+    Data4: 1362741223
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6779906533611608604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_shot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_shot
+  Guid:
+    Data1: -1202388676
+    Data2: 1099665344
+    Data3: -253374274
+    Data4: -1591987736
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6771574700437132579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_gain
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_gain
+  Guid:
+    Data1: 1696006234
+    Data2: 1306522561
+    Data3: -2043046736
+    Data4: 1483050729
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6300892410101379611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_itemdispense
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_itemdispense
+  Guid:
+    Data1: 1619118412
+    Data2: 1142087320
+    Data3: -390295155
+    Data4: -316636041
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6290846041254327119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_projcollision
+  Guid:
+    Data1: -383577538
+    Data2: 1167552233
+    Data3: -638926967
+    Data4: -1909616530
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6073904766742717902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_emptymag
+  Guid:
+    Data1: -85269288
+    Data2: 1329025664
+    Data3: 2134674576
+    Data4: -1465748193
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3828
+--- !u!114 &-5545474889335063023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_moving
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_moving
+  Guid:
+    Data1: 1226244938
+    Data2: 1163841864
+    Data3: -118096247
+    Data4: -59555547
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18899
+--- !u!114 &-5443777727109387523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_shootingwindup
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_shootingwindup
+  Guid:
+    Data1: -592865092
+    Data2: 1129473231
+    Data3: 1974172801
+    Data4: 366802609
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5137611422012657294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_leverpull
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_leverpull
+  Guid:
+    Data1: -204315859
+    Data2: 1273239177
+    Data3: 987789459
+    Data4: -1445296452
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5090478006955159032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/player_hit
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/player_hit
+  Guid:
+    Data1: 1981874826
+    Data2: 1312929282
+    Data3: -592074856
+    Data4: -500063226
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5048477155986592484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_doorsclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_doorsclosing
+  Guid:
+    Data1: -1023251455
+    Data2: 1335582345
+    Data3: -296707178
+    Data4: 550930338
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4923059750960236464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Occultgun/occultgun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Occultgun/occultgun_reload
+  Guid:
+    Data1: -1281078598
+    Data2: 1275613319
+    Data3: -1707276634
+    Data4: 219344940
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4350288057746048617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_lose
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_lose
+  Guid:
+    Data1: -1700707182
+    Data2: 1320155622
+    Data3: -2106083429
+    Data4: 336421120
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4316772927772522043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_reload
+  Guid:
+    Data1: -654301120
+    Data2: 1281437536
+    Data3: 65791933
+    Data4: -1150813212
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4304522411330609390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_electricalnoise
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_electricalnoise
+  Guid:
+    Data1: 961007128
+    Data2: 1195249072
+    Data3: 1853088413
+    Data4: 124086166
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2785
+--- !u!114 &-4243935213288963649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_end
+  Guid:
+    Data1: -254418640
+    Data2: 1100662729
+    Data3: 1332472717
+    Data4: -1616633163
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4076449106833099501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_wallsclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_wallsclosing
+  Guid:
+    Data1: -1148182639
+    Data2: 1230483895
+    Data3: 1563854499
+    Data4: 501034509
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4060835610348253717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_projcollision
+  Guid:
+    Data1: 1078875081
+    Data2: 1318828520
+    Data3: -896208246
+    Data4: 1562636476
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3616041628409401775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_death
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_death
+  Guid:
+    Data1: -696058022
+    Data2: 1201696709
+    Data3: -338136159
+    Data4: -94840679
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3237194242552682538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_projcollision
+  Guid:
+    Data1: 1078875081
+    Data2: 1318828520
+    Data3: -896208246
+    Data4: 1562636476
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3107908320848098298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/hitmarker_headshot
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/hitmarker_headshot
+  Guid:
+    Data1: -1117945667
+    Data2: 1132528332
+    Data3: 257126328
+    Data4: 1499743626
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2817952071382316651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_shooting
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_shooting
+  Guid:
+    Data1: -1383938890
+    Data2: 1326996872
+    Data3: 1601943224
+    Data4: -2004977591
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2689800929796095957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637970753348067452
+  FileSizes:
+  - Name: 
+    Value: 3978
+  Exists: 1
+--- !u!114 &-2688733299053336712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_start
+  Guid:
+    Data1: -505925679
+    Data2: 1302532293
+    Data3: -1156295496
+    Data4: 649150433
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1961183851113886787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/X enemy_flipping
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/X enemy_flipping
+  Guid:
+    Data1: 1563843787
+    Data2: 1249177522
+    Data3: 795316925
+    Data4: 1214452869
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1898910158476686066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_emptymag
+  Guid:
+    Data1: -504070525
+    Data2: 1286921143
+    Data3: -1051194967
+    Data4: 651969493
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1860188253137039253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/hitmarker_headshot
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/hitmarker_headshot
+  Guid:
+    Data1: -1117945667
+    Data2: 1132528332
+    Data3: 257126328
+    Data4: 1499743626
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1670478925958913025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_levelamount_dropped
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_levelamount_dropped
+  Guid:
+    Data1: -1960081298
+    Data2: 1146666815
+    Data3: 1093147562
+    Data4: -2006742815
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1545839603981802583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_purchasedeny
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_purchasedeny
+  Guid:
+    Data1: -1945564709
+    Data2: 1195801989
+    Data3: -74435940
+    Data4: 1362741223
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1480852310095369834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_levelamount_reached
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_levelamount_reached
+  Guid:
+    Data1: 1039601770
+    Data2: 1269259842
+    Data3: 98089875
+    Data4: 1637779762
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1391008886734623965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Time Slow/timeslow_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Time Slow/timeslow_start
+  Guid:
+    Data1: 1544028910
+    Data2: 1311636741
+    Data3: -1348631424
+    Data4: 804436498
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-445376940882654298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_doorsopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_doorsopening
+  Guid:
+    Data1: -544190802
+    Data2: 1262107726
+    Data3: 1637699989
+    Data4: -1225360810
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-246278048151250519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_wallsopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_wallsopening
+  Guid:
+    Data1: -867098932
+    Data2: 1103671805
+    Data3: -1176524661
+    Data4: -1442005364
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2689800929796095957}
+  - {fileID: 3985024799243677034}
+  EditorEvents:
+  - {fileID: 6127752475985972763}
+  - {fileID: 7143250023753432041}
+  - {fileID: 4209226022993076603}
+  - {fileID: 2397115577186603995}
+  - {fileID: 3076033732909809197}
+  - {fileID: -4304522411330609390}
+  - {fileID: -7795084252815495653}
+  - {fileID: -5137611422012657294}
+  - {fileID: 8959132753534463271}
+  - {fileID: -4243935213288963649}
+  - {fileID: 903819198628602632}
+  - {fileID: -6779906533611608604}
+  - {fileID: -8992631576831258599}
+  - {fileID: -7518892304789426855}
+  - {fileID: -7212873553336073298}
+  - {fileID: 8330415361239950415}
+  - {fileID: -5545474889335063023}
+  - {fileID: -6300892410101379611}
+  - {fileID: -6771574700437132579}
+  - {fileID: -7646122103682919888}
+  - {fileID: 7355329010204679591}
+  - {fileID: -1480852310095369834}
+  - {fileID: 4768879773769697971}
+  - {fileID: -1670478925958913025}
+  - {fileID: 8428900842582235450}
+  - {fileID: 8873731752345726560}
+  - {fileID: 4333873353279749664}
+  - {fileID: 9156715782372332557}
+  - {fileID: 8792327212677679451}
+  - {fileID: 5447838301417150210}
+  - {fileID: 4258196626432620307}
+  - {fileID: -4350288057746048617}
+  - {fileID: 6492751347448858027}
+  - {fileID: 4720959053916975946}
+  - {fileID: -8709355976254175505}
+  - {fileID: 179753164425719057}
+  - {fileID: -7208603616820569945}
+  - {fileID: 7123959028787432673}
+  - {fileID: 8733108451145903296}
+  - {fileID: 1657068828662183285}
+  - {fileID: -7822941289075568847}
+  - {fileID: -3107908320848098298}
+  - {fileID: -3237194242552682538}
+  - {fileID: 3466844347086112803}
+  - {fileID: -2688733299053336712}
+  - {fileID: 6801069464589127338}
+  - {fileID: -6073904766742717902}
+  - {fileID: -1545839603981802583}
+  - {fileID: 6325139644330283386}
+  - {fileID: 7309054477542294301}
+  - {fileID: 1716486589595462925}
+  - {fileID: 5351645741603820181}
+  - {fileID: 2583013347763291182}
+  - {fileID: 1038871200436216500}
+  - {fileID: 3508403588311116697}
+  - {fileID: -5090478006955159032}
+  - {fileID: -8599008035203913755}
+  - {fileID: 1950248639462947266}
+  - {fileID: -4923059750960236464}
+  - {fileID: -7303835936489032307}
+  - {fileID: -8916135931923754130}
+  - {fileID: 1575076956753728995}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3985024799243677034}
+  StringsBanks:
+  - {fileID: -2689800929796095957}
+  cacheTime: 637971168344937457
+  cacheVersion: 131591
+--- !u!114 &177085416692877142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_shot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_shot
+  Guid:
+    Data1: 569903176
+    Data2: 1134343566
+    Data3: -1960824156
+    Data4: -290412097
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &179753164425719057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_doorsopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_doorsopening
+  Guid:
+    Data1: -544190802
+    Data2: 1262107726
+    Data3: 1637699989
+    Data4: -1225360810
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &612902761359146470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_emptymag
+  Guid:
+    Data1: -85269288
+    Data2: 1329025664
+    Data3: 2134674576
+    Data4: -1465748193
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &635505661306257458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_button
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_button
+  Guid:
+    Data1: 640970892
+    Data2: 1089249240
+    Data3: -681204315
+    Data4: 1798700235
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &903819198628602632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_emptymag
+  Guid:
+    Data1: 1831524919
+    Data2: 1175078421
+    Data3: -122456939
+    Data4: -1972920813
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1038871200436216500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Occultgun/occultgun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Occultgun/occultgun_emptymag
+  Guid:
+    Data1: 545327448
+    Data2: 1165771523
+    Data3: -1024685409
+    Data4: -1580020522
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1071561896955998044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_end
+  Guid:
+    Data1: 1928507861
+    Data2: 1334161680
+    Data3: 10705056
+    Data4: -1037897067
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1173897895541977979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_shot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_shot
+  Guid:
+    Data1: -1202388676
+    Data2: 1099665344
+    Data3: -253374274
+    Data4: -1591987736
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1208253347952462609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_weaponchamberclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_weaponchamberclosing
+  Guid:
+    Data1: 1586801834
+    Data2: 1282956999
+    Data3: -809195120
+    Data4: -895283196
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1571938274425032690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_purchaseconfirm
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_purchaseconfirm
+  Guid:
+    Data1: -983328589
+    Data2: 1177699374
+    Data3: 462513343
+    Data4: 905361713
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1575076956753728995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/uimenu_open
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/uimenu_open
+  Guid:
+    Data1: -1780229484
+    Data2: 1314694296
+    Data3: -1009907062
+    Data4: 1291861315
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1657068828662183285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_tick
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_tick
+  Guid:
+    Data1: -597147206
+    Data2: 1274233377
+    Data3: 1586726820
+    Data4: -1373647645
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1682217208535145006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_leverreturn
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_leverreturn
+  Guid:
+    Data1: -690463210
+    Data2: 1075078137
+    Data3: -1411129199
+    Data4: -470024298
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1684023052582738898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637964638006476822
+  FileSizes:
+  - Name: 
+    Value: 3440
+  Exists: 1
+--- !u!114 &1716486589595462925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Infinite Ammo/infiniteammo_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Infinite Ammo/infiniteammo_end
+  Guid:
+    Data1: 1390032889
+    Data2: 1171262783
+    Data3: 411921586
+    Data4: -2028907292
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1792424565485000404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_itemdispense
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_itemdispense
+  Guid:
+    Data1: 1619118412
+    Data2: 1142087320
+    Data3: -390295155
+    Data4: -316636041
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1950248639462947266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/gameover
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/gameover
+  Guid:
+    Data1: -1034630483
+    Data2: 1331652230
+    Data3: 1269142690
+    Data4: -1226890699
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1951042394283782748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_levelamount_dropped
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_levelamount_dropped
+  Guid:
+    Data1: -1960081298
+    Data2: 1146666815
+    Data3: 1093147562
+    Data4: -2006742815
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2397115577186603995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_reload
+  Guid:
+    Data1: -1537859818
+    Data2: 1147826838
+    Data3: 1857473723
+    Data4: 415571151
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2583013347763291182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/soundtrack
+  m_EditorClassIdentifier: 
+  Path: event:/Music/soundtrack
+  Guid:
+    Data1: -1267956971
+    Data2: 1302676107
+    Data3: -1713047157
+    Data4: 680548428
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240000
+--- !u!114 &2945808676069888715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_moving
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_moving
+  Guid:
+    Data1: 1226244938
+    Data2: 1163841864
+    Data3: -118096247
+    Data4: -59555547
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18899
+--- !u!114 &3076033732909809197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_leverreturn
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_leverreturn
+  Guid:
+    Data1: -690463210
+    Data2: 1075078137
+    Data3: -1411129199
+    Data4: -470024298
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3466844347086112803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_wallsopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_wallsopening
+  Guid:
+    Data1: -867098932
+    Data2: 1103671805
+    Data3: -1176524661
+    Data4: -1442005364
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3508403588311116697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Occultgun/occultgun_shot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Occultgun/occultgun_shot
+  Guid:
+    Data1: 1579816324
+    Data2: 1246283231
+    Data3: -748877412
+    Data4: -547274481
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3871487813709207944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_shotcharge
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_shotcharge
+  Guid:
+    Data1: 467560583
+    Data2: 1089470565
+    Data3: 1050840760
+    Data4: 1039736558
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3985024799243677034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637971168344937457
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4073382524000334404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_emptymag
+  Guid:
+    Data1: 1831524919
+    Data2: 1175078421
+    Data3: -122456939
+    Data4: -1972920813
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4209226022993076603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/hitmarker
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/hitmarker
+  Guid:
+    Data1: 514599181
+    Data2: 1129846350
+    Data3: 2048534706
+    Data4: -246248117
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4258196626432620307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_wallsclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_wallsclosing
+  Guid:
+    Data1: -1148182639
+    Data2: 1230483895
+    Data3: 1563854499
+    Data4: 501034509
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4333873353279749664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_emptymag
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_emptymag
+  Guid:
+    Data1: -504070525
+    Data2: 1286921143
+    Data3: -1051194967
+    Data4: 651969493
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4459914386347737255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_start
+  Guid:
+    Data1: -688901585
+    Data2: 1217766401
+    Data3: -81468225
+    Data4: -768588066
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4514294100495656077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_end
+  Guid:
+    Data1: -254418640
+    Data2: 1100662729
+    Data3: 1332472717
+    Data4: -1616633163
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4549935179533277396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_levelreached
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_levelreached
+  Guid:
+    Data1: -711152002
+    Data2: 1227229235
+    Data3: 77936809
+    Data4: 1980081072
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4720959053916975946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Shield/shield_hit
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Shield/shield_hit
+  Guid:
+    Data1: 1864668323
+    Data2: 1256309250
+    Data3: 2112227242
+    Data4: 1866176583
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4768879773769697971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_reload
+  Guid:
+    Data1: -2028830611
+    Data2: 1137219872
+    Data3: 11277499
+    Data4: 1196062522
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4947628128548610020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Extras/hitmarker
+  m_EditorClassIdentifier: 
+  Path: event:/Extras/hitmarker
+  Guid:
+    Data1: 514599181
+    Data2: 1129846350
+    Data3: 2048534706
+    Data4: -246248117
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4993767803867332670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_popup
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_popup
+  Guid:
+    Data1: -935626091
+    Data2: 1266131502
+    Data3: 519881914
+    Data4: -1434834164
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5351645741603820181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Occultgun/occultgun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Occultgun/occultgun_projcollision
+  Guid:
+    Data1: -195201005
+    Data2: 1260032835
+    Data3: -1869746508
+    Data4: -690132086
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5447838301417150210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_shot1
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_shot1
+  Guid:
+    Data1: -1986058866
+    Data2: 1174499798
+    Data3: 72815026
+    Data4: 383024847
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5654355119593106839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_levelamount_reached
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_levelamount_reached
+  Guid:
+    Data1: 1039601770
+    Data2: 1269259842
+    Data3: 98089875
+    Data4: 1637779762
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5756221362925632569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Infinite Ammo/infiniteammo_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Infinite Ammo/infiniteammo_start
+  Guid:
+    Data1: 1018845827
+    Data2: 1155109790
+    Data3: 234448794
+    Data4: -874730084
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6127752475985972763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_doorsclosing
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_doorsclosing
+  Guid:
+    Data1: -1023251455
+    Data2: 1335582345
+    Data3: -296707178
+    Data4: 550930338
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6325139644330283386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Time Slow/timeslow_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Time Slow/timeslow_start
+  Guid:
+    Data1: 1544028910
+    Data2: 1311636741
+    Data3: -1348631424
+    Data4: 804436498
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6438650260489462556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_leverpull
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_leverpull
+  Guid:
+    Data1: -204315859
+    Data2: 1273239177
+    Data3: 987789459
+    Data4: -1445296452
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6492751347448858027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_popup
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_popup
+  Guid:
+    Data1: -935626091
+    Data2: 1266131502
+    Data3: 519881914
+    Data4: -1434834164
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6565996682770458606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_tick
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_tick
+  Guid:
+    Data1: -597147206
+    Data2: 1274233377
+    Data3: 1586726820
+    Data4: -1373647645
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6672900428103126841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_shaftrumble
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_shaftrumble
+  Guid:
+    Data1: -1077276494
+    Data2: 1257029990
+    Data3: -607511881
+    Data4: -1835306458
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6783867063202773973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637964638006466828
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6801069464589127338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_end
+  Guid:
+    Data1: 1928507861
+    Data2: 1334161680
+    Data3: 10705056
+    Data4: -1037897067
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7123959028787432673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_purchaseconfirm
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_purchaseconfirm
+  Guid:
+    Data1: -983328589
+    Data2: 1177699374
+    Data3: 462513343
+    Data4: 905361713
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7143250023753432041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_projcollision
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_projcollision
+  Guid:
+    Data1: -1424530172
+    Data2: 1220666676
+    Data3: -2097338721
+    Data4: -747368187
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7309054477542294301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_weaponchamberopening
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_weaponchamberopening
+  Guid:
+    Data1: 933954548
+    Data2: 1309807316
+    Data3: 1195601340
+    Data4: 1022747375
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7355329010204679591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_gain
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_gain
+  Guid:
+    Data1: -695729046
+    Data2: 1177841960
+    Data3: 1861490864
+    Data4: 1071141260
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7511980882963239798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_shot2
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_shot2
+  Guid:
+    Data1: -282929857
+    Data2: 1332784256
+    Data3: -1180266355
+    Data4: 258653347
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7687857977742277543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Time Slow/timeslow_end
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Time Slow/timeslow_end
+  Guid:
+    Data1: -254900709
+    Data2: 1230239372
+    Data3: -850374497
+    Data4: -1051464518
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7830455410418517342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_shot1
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_shot1
+  Guid:
+    Data1: -1986058866
+    Data2: 1174499798
+    Data3: 72815026
+    Data4: 383024847
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8008244289760782452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Fingergun/fingergun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Fingergun/fingergun_reload
+  Guid:
+    Data1: -1537859818
+    Data2: 1147826838
+    Data3: 1857473723
+    Data4: 415571151
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8330415361239950415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Swordgun/swordgun_shot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Swordgun/swordgun_shot
+  Guid:
+    Data1: 569903176
+    Data2: 1134343566
+    Data3: -1960824156
+    Data4: -290412097
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8428900842582235450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elevator/elevator_levelreached
+  m_EditorClassIdentifier: 
+  Path: event:/Elevator/elevator_levelreached
+  Guid:
+    Data1: -711152002
+    Data2: 1227229235
+    Data3: 77936809
+    Data4: 1980081072
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8660186088274725309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_reload
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_reload
+  Guid:
+    Data1: -2028830611
+    Data2: 1137219872
+    Data3: 11277499
+    Data4: 1196062522
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8733108451145903296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/enemy_shooting
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/enemy_shooting
+  Guid:
+    Data1: -1383938890
+    Data2: 1326996872
+    Data3: 1601943224
+    Data4: -2004977591
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8792327212677679451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_button
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_button
+  Guid:
+    Data1: 640970892
+    Data2: 1089249240
+    Data3: -681204315
+    Data4: 1798700235
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8873731752345726560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Infinite Ammo/infiniteammo_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Infinite Ammo/infiniteammo_start
+  Guid:
+    Data1: 1018845827
+    Data2: 1155109790
+    Data3: 234448794
+    Data4: -874730084
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8881543207391055453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/Shop/shop_electricalnoise
+  m_EditorClassIdentifier: 
+  Path: event:/Points/Shop/shop_electricalnoise
+  Guid:
+    Data1: 961007128
+    Data2: 1195249072
+    Data3: 1853088413
+    Data4: 124086166
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2785
+--- !u!114 &8959132753534463271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Consumables/Double Points/doublepoints_start
+  m_EditorClassIdentifier: 
+  Path: event:/Consumables/Double Points/doublepoints_start
+  Guid:
+    Data1: -688901585
+    Data2: 1217766401
+    Data3: -81468225
+    Data4: -768588066
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9154769562270543644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Points/points_lose
+  m_EditorClassIdentifier: 
+  Path: event:/Points/points_lose
+  Guid:
+    Data1: -1700707182
+    Data2: 1320155622
+    Data3: -2106083429
+    Data4: 336421120
+  Banks:
+  - {fileID: 6783867063202773973}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9156715782372332557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Ultramangun/ultramangun_shotcharge
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Ultramangun/ultramangun_shotcharge
+  Guid:
+    Data1: 467560583
+    Data2: 1089470565
+    Data3: 1050840760
+    Data4: 1039736558
+  Banks:
+  - {fileID: 3985024799243677034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

@@ -1,0 +1,805 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &778766835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778766836}
+  - component: {fileID: 778766840}
+  - component: {fileID: 778766839}
+  - component: {fileID: 778766838}
+  - component: {fileID: 778766837}
+  m_Layer: 0
+  m_Name: AudioSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778766836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778766835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6395843390021450137}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &778766840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778766835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0159cf4493f395644ad394d0eb39c66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &778766839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778766835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0343b1925e81b6045af7639245288c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalValue: {fileID: 11400000, guid: 8e66749cd9756d040b2080bbe6bf2bf0, type: 2}
+  onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 778766840}
+        m_TargetAssemblyTypeName: AudioSettings, HappyHotel
+        m_MethodName: MasterVolumeLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &778766838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778766835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0343b1925e81b6045af7639245288c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalValue: {fileID: 11400000, guid: 94ec1a72bf2ad874e9dc1fb4a922cff1, type: 2}
+  onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 778766840}
+        m_TargetAssemblyTypeName: AudioSettings, HappyHotel
+        m_MethodName: MusicVolumeLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &778766837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778766835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0343b1925e81b6045af7639245288c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalValue: {fileID: 11400000, guid: 14806ec74227794479af7f3bfc954e22, type: 2}
+  onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 778766840}
+        m_TargetAssemblyTypeName: AudioSettings, HappyHotel
+        m_MethodName: SFXVolumeLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!1 &6395843390021450140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6395843390021450137}
+  - component: {fileID: 6395843390021450136}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6395843390021450137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6395843390021450140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6325098776891707345}
+  - {fileID: 778766836}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6395843390021450136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6395843390021450140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95140afb7d1847f489fbc00c0d3003f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalReference: {fileID: 11400000, guid: 791b3847f575fcb4d92caad416e35dc2, type: 2}
+  refs:
+  - Guid:
+      Data1: 1928507861
+      Data2: 1334161680
+      Data3: 10705056
+      Data4: -1037897067
+    Path: event:/Consumables/Double Points/doublepoints_end
+  - Guid:
+      Data1: 1696006234
+      Data2: 1306522561
+      Data3: -2043046736
+      Data4: 1483050729
+    Path: event:/Consumables/Double Points/doublepoints_gain
+  - Guid:
+      Data1: -688901585
+      Data2: 1217766401
+      Data3: -81468225
+      Data4: -768588066
+    Path: event:/Consumables/Double Points/doublepoints_start
+  - Guid:
+      Data1: 1390032889
+      Data2: 1171262783
+      Data3: 411921586
+      Data4: -2028907292
+    Path: event:/Consumables/Infinite Ammo/infiniteammo_end
+  - Guid:
+      Data1: 1018845827
+      Data2: 1155109790
+      Data3: 234448794
+      Data4: -874730084
+    Path: event:/Consumables/Infinite Ammo/infiniteammo_start
+  - Guid:
+      Data1: -254418640
+      Data2: 1100662729
+      Data3: 1332472717
+      Data4: -1616633163
+    Path: event:/Consumables/Shield/shield_end
+  - Guid:
+      Data1: 1864668323
+      Data2: 1256309250
+      Data3: 2112227242
+      Data4: 1866176583
+    Path: event:/Consumables/Shield/shield_hit
+  - Guid:
+      Data1: -505925679
+      Data2: 1302532293
+      Data3: -1156295496
+      Data4: 649150433
+    Path: event:/Consumables/Shield/shield_start
+  - Guid:
+      Data1: -254900709
+      Data2: 1230239372
+      Data3: -850374497
+      Data4: -1051464518
+    Path: event:/Consumables/Time Slow/timeslow_end
+  - Guid:
+      Data1: 1544028910
+      Data2: 1311636741
+      Data3: -1348631424
+      Data4: 804436498
+    Path: event:/Consumables/Time Slow/timeslow_start
+  - Guid:
+      Data1: -1023251455
+      Data2: 1335582345
+      Data3: -296707178
+      Data4: 550930338
+    Path: event:/Elevator/elevator_doorsclosing
+  - Guid:
+      Data1: -544190802
+      Data2: 1262107726
+      Data3: 1637699989
+      Data4: -1225360810
+    Path: event:/Elevator/elevator_doorsopening
+  - Guid:
+      Data1: -711152002
+      Data2: 1227229235
+      Data3: 77936809
+      Data4: 1980081072
+    Path: event:/Elevator/elevator_levelreached
+  - Guid:
+      Data1: 1226244938
+      Data2: 1163841864
+      Data3: -118096247
+      Data4: -59555547
+    Path: event:/Elevator/elevator_moving
+  - Guid:
+      Data1: -1077276494
+      Data2: 1257029990
+      Data3: -607511881
+      Data4: -1835306458
+    Path: event:/Elevator/elevator_shaftrumble
+  - Guid:
+      Data1: -1148182639
+      Data2: 1230483895
+      Data3: 1563854499
+      Data4: 501034509
+    Path: event:/Elevator/elevator_wallsclosing
+  - Guid:
+      Data1: -867098932
+      Data2: 1103671805
+      Data3: -1176524661
+      Data4: -1442005364
+    Path: event:/Elevator/elevator_wallsopening
+  - Guid:
+      Data1: 1586801834
+      Data2: 1282956999
+      Data3: -809195120
+      Data4: -895283196
+    Path: event:/Elevator/elevator_weaponchamberclosing
+  - Guid:
+      Data1: 933954548
+      Data2: 1309807316
+      Data3: 1195601340
+      Data4: 1022747375
+    Path: event:/Elevator/elevator_weaponchamberopening
+  - Guid:
+      Data1: -696058022
+      Data2: 1201696709
+      Data3: -338136159
+      Data4: -94840679
+    Path: event:/Enemies/enemy_death
+  - Guid:
+      Data1: -935626091
+      Data2: 1266131502
+      Data3: 519881914
+      Data4: -1434834164
+    Path: event:/Enemies/enemy_popup
+  - Guid:
+      Data1: -1383938890
+      Data2: 1326996872
+      Data3: 1601943224
+      Data4: -2004977591
+    Path: event:/Enemies/enemy_shooting
+  - Guid:
+      Data1: -592865092
+      Data2: 1129473231
+      Data3: 1974172801
+      Data4: 366802609
+    Path: event:/Enemies/enemy_shootingwindup
+  - Guid:
+      Data1: 514599181
+      Data2: 1129846350
+      Data3: 2048534706
+      Data4: -246248117
+    Path: event:/Extras/hitmarker
+  - Guid:
+      Data1: -1117945667
+      Data2: 1132528332
+      Data3: 257126328
+      Data4: 1499743626
+    Path: event:/Extras/hitmarker_headshot
+  - Guid:
+      Data1: 640970892
+      Data2: 1089249240
+      Data3: -681204315
+      Data4: 1798700235
+    Path: event:/Points/Shop/shop_button
+  - Guid:
+      Data1: 961007128
+      Data2: 1195249072
+      Data3: 1853088413
+      Data4: 124086166
+    Path: event:/Points/Shop/shop_electricalnoise
+  - Guid:
+      Data1: 1619118412
+      Data2: 1142087320
+      Data3: -390295155
+      Data4: -316636041
+    Path: event:/Points/Shop/shop_itemdispense
+  - Guid:
+      Data1: -204315859
+      Data2: 1273239177
+      Data3: 987789459
+      Data4: -1445296452
+    Path: event:/Points/Shop/shop_leverpull
+  - Guid:
+      Data1: -690463210
+      Data2: 1075078137
+      Data3: -1411129199
+      Data4: -470024298
+    Path: event:/Points/Shop/shop_leverreturn
+  - Guid:
+      Data1: -983328589
+      Data2: 1177699374
+      Data3: 462513343
+      Data4: 905361713
+    Path: event:/Points/Shop/shop_purchaseconfirm
+  - Guid:
+      Data1: -1945564709
+      Data2: 1195801989
+      Data3: -74435940
+      Data4: 1362741223
+    Path: event:/Points/Shop/shop_purchasedeny
+  - Guid:
+      Data1: -695729046
+      Data2: 1177841960
+      Data3: 1861490864
+      Data4: 1071141260
+    Path: event:/Points/points_gain
+  - Guid:
+      Data1: -1960081298
+      Data2: 1146666815
+      Data3: 1093147562
+      Data4: -2006742815
+    Path: event:/Points/points_levelamount_dropped
+  - Guid:
+      Data1: 1039601770
+      Data2: 1269259842
+      Data3: 98089875
+      Data4: 1637779762
+    Path: event:/Points/points_levelamount_reached
+  - Guid:
+      Data1: -1700707182
+      Data2: 1320155622
+      Data3: -2106083429
+      Data4: 336421120
+    Path: event:/Points/points_lose
+  - Guid:
+      Data1: -597147206
+      Data2: 1274233377
+      Data3: 1586726820
+      Data4: -1373647645
+    Path: event:/Points/points_tick
+  - Guid:
+      Data1: -504070525
+      Data2: 1286921143
+      Data3: -1051194967
+      Data4: 651969493
+    Path: event:/Weapons/Fingergun/fingergun_emptymag
+  - Guid:
+      Data1: -383577538
+      Data2: 1167552233
+      Data3: -638926967
+      Data4: -1909616530
+    Path: event:/Weapons/Fingergun/fingergun_projcollision
+  - Guid:
+      Data1: -1537859818
+      Data2: 1147826838
+      Data3: 1857473723
+      Data4: 415571151
+    Path: event:/Weapons/Fingergun/fingergun_reload
+  - Guid:
+      Data1: -1986058866
+      Data2: 1174499798
+      Data3: 72815026
+      Data4: 383024847
+    Path: event:/Weapons/Fingergun/fingergun_shot1
+  - Guid:
+      Data1: -282929857
+      Data2: 1332784256
+      Data3: -1180266355
+      Data4: 258653347
+    Path: event:/Weapons/Fingergun/fingergun_shot2
+  - Guid:
+      Data1: 1831524919
+      Data2: 1175078421
+      Data3: -122456939
+      Data4: -1972920813
+    Path: event:/Weapons/Swordgun/swordgun_emptymag
+  - Guid:
+      Data1: 1078875081
+      Data2: 1318828520
+      Data3: -896208246
+      Data4: 1562636476
+    Path: event:/Weapons/Swordgun/swordgun_projcollision
+  - Guid:
+      Data1: -654301120
+      Data2: 1281437536
+      Data3: 65791933
+      Data4: -1150813212
+    Path: event:/Weapons/Swordgun/swordgun_reload
+  - Guid:
+      Data1: 569903176
+      Data2: 1134343566
+      Data3: -1960824156
+      Data4: -290412097
+    Path: event:/Weapons/Swordgun/swordgun_shot
+  - Guid:
+      Data1: -85269288
+      Data2: 1329025664
+      Data3: 2134674576
+      Data4: -1465748193
+    Path: event:/Weapons/Ultramangun/ultramangun_emptymag
+  - Guid:
+      Data1: -1424530172
+      Data2: 1220666676
+      Data3: -2097338721
+      Data4: -747368187
+    Path: event:/Weapons/Ultramangun/ultramangun_projcollision
+  - Guid:
+      Data1: -2028830611
+      Data2: 1137219872
+      Data3: 11277499
+      Data4: 1196062522
+    Path: event:/Weapons/Ultramangun/ultramangun_reload
+  - Guid:
+      Data1: -1202388676
+      Data2: 1099665344
+      Data3: -253374274
+      Data4: -1591987736
+    Path: event:/Weapons/Ultramangun/ultramangun_shot
+  - Guid:
+      Data1: 467560583
+      Data2: 1089470565
+      Data3: 1050840760
+      Data4: 1039736558
+    Path: event:/Weapons/Ultramangun/ultramangun_shotcharge
+  - Guid:
+      Data1: 545327448
+      Data2: 1165771523
+      Data3: -1024685409
+      Data4: -1580020522
+    Path: event:/Weapons/Occultgun/occultgun_emptymag
+  - Guid:
+      Data1: -195201005
+      Data2: 1260032835
+      Data3: -1869746508
+      Data4: -690132086
+    Path: event:/Weapons/Occultgun/occultgun_projcollision
+  - Guid:
+      Data1: -1281078598
+      Data2: 1275613319
+      Data3: -1707276634
+      Data4: 219344940
+    Path: event:/Weapons/Occultgun/occultgun_reload
+  - Guid:
+      Data1: 1579816324
+      Data2: 1246283231
+      Data3: -748877412
+      Data4: -547274481
+    Path: event:/Weapons/Occultgun/occultgun_shot
+  - Guid:
+      Data1: 1721393832
+      Data2: 1088073984
+      Data3: -739006023
+      Data4: 793028002
+    Path: event:/Consumables/Grenade/consumable_grenade_explosion
+  - Guid:
+      Data1: -2096048697
+      Data2: 1092801199
+      Data3: -598916214
+      Data4: -2119996956
+    Path: event:/Consumables/Grenade/consumable_grenade_start
+  - Guid:
+      Data1: -1034630483
+      Data2: 1331652230
+      Data3: 1269142690
+      Data4: -1226890699
+    Path: event:/Extras/gameover
+  - Guid:
+      Data1: 1981874826
+      Data2: 1312929282
+      Data3: -592074856
+      Data4: -500063226
+    Path: event:/Extras/player_hit
+  - Guid:
+      Data1: -1267956971
+      Data2: 1302676107
+      Data3: -1713047157
+      Data4: 680548428
+    Path: event:/Music/soundtrack
+  elevatorMoving:
+    Guid:
+      Data1: 1226244938
+      Data2: 1163841864
+      Data3: -118096247
+      Data4: -59555547
+    Path: event:/Elevator/elevator_moving
+  shopStaticNoise:
+    Guid:
+      Data1: 961007128
+      Data2: 1195249072
+      Data3: 1853088413
+      Data4: 124086166
+    Path: event:/Points/Shop/shop_electricalnoise
+--- !u!1 &7038507676900920508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6325098776891707345}
+  - component: {fileID: 7686175962078369365}
+  - component: {fileID: 1254212670845191165}
+  - component: {fileID: 5967601787221453636}
+  - component: {fileID: 2289085809323443460}
+  - component: {fileID: 497551090507492231}
+  - component: {fileID: 1949468351810004451}
+  m_Layer: 0
+  m_Name: SoundEventListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6325098776891707345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6395843390021450137}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7686175962078369365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: 6e0925e27a784e54b8098bee5e30ba6d, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &1254212670845191165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: 341978560f6dd5b47a47fba572cef646, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &5967601787221453636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: 9251c04bcb92ae2488e5211960ad9808, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &2289085809323443460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: febd22efe68486a44bfc33faba64590e, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &497551090507492231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: ce2dc7bb48f8a6f4d9dcf701b8f6291c, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}
+--- !u!114 &1949468351810004451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038507676900920508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50803cd2fea919e4ca14f147a2e3b7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalEvent: {fileID: 11400000, guid: 078b3e389d3c99042b26685a47cb7b3b, type: 2}
+  onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6395843390021450136}
+        m_TargetAssemblyTypeName: FMODSoundManager, HappyHotel
+        m_MethodName: PlaySound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delay:
+    isGlobal: 0
+    isRuntimeConstant: 1
+    local: 0
+    global: {fileID: 0}

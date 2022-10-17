@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 60060e268dc0c854f93c65f2c9486a3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - destroyWeapons: {fileID: 11400000, guid: 4b85265184a3b214abf6786954a39148, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

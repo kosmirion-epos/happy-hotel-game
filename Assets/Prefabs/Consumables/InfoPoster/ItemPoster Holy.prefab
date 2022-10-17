@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2007942571350576357
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 358868063732906268, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a047bb9d93efb44d966514d5a381532, type: 2}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3915
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.654
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.9341793
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491210750689526387, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304163962392385737, guid: 05b226bbf1fa82f43aebcedce5c25762,
+        type: 3}
+      propertyPath: m_Name
+      value: ItemPoster Holy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05b226bbf1fa82f43aebcedce5c25762, type: 3}

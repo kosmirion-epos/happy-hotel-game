@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64ae1276d0bfe74a9ddca59da6a1b81, type: 3}
+  m_Name: Time Slow
+  m_EditorClassIdentifier: 
+  itemName: Time Slow
+  price: 250
+  prefab: {fileID: 5872106105675306537, guid: 531b03874e363924e8177e905799ea93, type: 3}

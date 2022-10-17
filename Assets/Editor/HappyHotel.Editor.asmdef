@@ -1,0 +1,20 @@
+{
+    "name": "HappyHotel.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:35b093ae04334c04ba14b0eb779f81eb",
+        "GUID:92bb21c26a0583040bbc7c30d46a6311",
+        "GUID:70fa458a08e0173458df842889740731"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

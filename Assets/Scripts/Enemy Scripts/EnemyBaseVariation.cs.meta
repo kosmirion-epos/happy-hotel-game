@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 84a401fd0bc4eda449f7f30853ceb187
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - config: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - roundEndEvent: {fileID: 11400000, guid: ece8424ba465ad149aa13b3fbab8985b, type: 2}
+  - hitmarkerSound: {instanceID: 0}
+  - headshotSound: {instanceID: 0}
+  - impactSound: {instanceID: 0}
+  - movementType: {instanceID: 0}
+  - attackType: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

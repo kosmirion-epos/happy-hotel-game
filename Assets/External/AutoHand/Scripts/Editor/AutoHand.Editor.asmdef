@@ -1,0 +1,18 @@
+{
+    "name": "AutoHand.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:efb73d14ac677b545981907a605ac3a3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
